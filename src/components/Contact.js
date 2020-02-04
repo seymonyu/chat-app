@@ -8,8 +8,8 @@ function Contact(props) {
       <div>
         <div className="name"> {props.name} </div>
         <div className="status">
-          <div className={"status-" + props.status}></div>
-          <div className="status-text">{props.status}</div>
+          <div className={"status-" + props.status}> </div>
+          <p className="status-text">{props.status}</p>
         </div>
       </div>
     </div>

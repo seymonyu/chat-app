@@ -6,7 +6,7 @@ function App() {
       <Contact
         name="Seyma Firat"
         status="online"
-        avatar="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939"
+        avatar="https://avatars2.githubusercontent.com/u/59199817?s=460&v=4"
       />
       <Contact
         name="Joan Griffin"
