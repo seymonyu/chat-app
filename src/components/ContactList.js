@@ -7,39 +7,34 @@ const contact = [
   {
     avatar: "https://randomuser.me/api/portraits/women/22.jpg",
 
-    name: "Linda Johnston",
-    status: "online"
+    name: "Linda Johnston"
   },
   {
     avatar: "https://randomuser.me/api/portraits/women/18.jpg",
 
-    name: "Sofia Ferguson",
-    status: "online"
+    name: "Sofia Ferguson"
   },
   {
     avatar: "https://randomuser.me/api/portraits/men/76.jpg",
 
-    name: "Evan Vargas",
-    status: "offline"
+    name: "Evan Vargas"
   },
   {
     avatar: "https://randomuser.me/api/portraits/men/51.jpg",
 
-    name: "Jackson Barrett",
-    status: "online"
+    name: "Jackson Barrett"
   },
   {
     avatar: "https://randomuser.me/api/portraits/women/93.jpg",
 
-    name: "Dawn Pearson",
-    status: "offline"
+    name: "Dawn Pearson"
   }
 ];
 
 const ContactList = () => (
   <div>
     {contact.map(item => (
-      <Contact name={item.name} avatar={item.avatar} status={item.status} />
+      <Contact name={item.name} avatar={item.avatar} />
     ))}
   </div>
 );
